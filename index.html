@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <meta content="O SentinelBot é o teu assistente de confiança para Albion Online com gestão de guildas, alertas e muito mais no Discord." name="description"/>
-  <meta content="Albion Online, Discord bot, SentinelBot, gestão de guilda, alertas, MMO, Mercado" name="keywords"/>
-  <meta content="Repyhh" name="author"/>
-  <meta content="SentinelBot - Assistente para Albion Online" property="og:title"/>
-  <meta content="Gestão de guildas, alertas e muito mais para Albion Online." property="og:description"/>
-  <meta content="https://sentinelbot.example.com/sentinelbot_logo.png" property="og:image"/>
-  <meta content="https://sentinelbot.example.com/" property="og:url"/>
-  <meta content="website" property="og:type"/>
-
-  <!-- CSP que permite inline scripts/styles e unsafe-eval para o CDN do Tailwind -->
+  <!-- meta CSP PARA INLINE E EVAL, deve estar em primeiro lugar -->
   <meta http-equiv="Content-Security-Policy"
         content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline';">
 
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="O SentinelBot é o teu assistente de confiança para Albion Online com gestão de guildas, alertas e muito mais no Discord."/>
+  <meta name="keywords" content="Albion Online, Discord bot, SentinelBot, gestão de guilda, alertas, MMO, Mercado"/>
+  <meta name="author" content="Repyhh"/>
+  <meta property="og:title" content="SentinelBot - Assistente para Albion Online"/>
+  <meta property="og:description" content="Gestão de guildas, alertas e muito mais para Albion Online."/>
+  <meta property="og:image" content="https://sentinelbot.example.com/sentinelbot_logo.png"/>
+  <meta property="og:url" content="https://sentinelbot.example.com/"/>
+  <meta property="og:type" content="website"/>
+
   <link rel="icon" href="iconpequeno.webp" type="image/webp"/>
   <title data-i18n="title">title</title>
-  <!-- Aplicar o modo escuro antes de qualquer CSS para evitar flash -->
+
+  <!-- agora sim o Tailwind, depois do CSP -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     (function() {
       try {
