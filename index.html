@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="O SentinelBot é o teu assistente de confiança para Albion Online com gestão de guildas, alertas e muito mais no Discord." name="description"/>
+  <meta content="Albion Online, Discord bot, SentinelBot, gestão de guilda, alertas, MMO, Mercado" name="keywords"/>
+  <meta content="Repyhh" name="author"/>
+  <meta content="SentinelBot - Assistente para Albion Online" property="og:title"/>
+  <meta content="Gestão de guildas, alertas e muito mais para Albion Online." property="og:description"/>
+  <meta content="https://sentinelbot.example.com/sentinelbot_logo.png" property="og:image"/>
+  <meta content="https://sentinelbot.example.com/" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <link rel="icon" href="iconpequeno.WEBP" type="image/webp"/>
+  <title data-i18n="title">title</title>
+  <!-- Aplicar o modo escuro antes de qualquer CSS para evitar flash -->
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('theme') === 'dark') {
+          document.documentElement.classList.add('dark-mode');
+          document.body.classList.add('dark-mode');
+        }
+      } catch(e) {}
+    })();
+  </script>
+  <style>
+    html.dark-mode {
+      background-color: #000 !important;
+      color: white !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #000 !important;
+        color: white !important;
+      }
+    }
+  </style>
+
+  <title data-i18n="title">title</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #facc15;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+    .slider::before {
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+      box-shadow: inset 0 0 0 4px black;
+    }
+    input:checked + .slider {
+      background-color: #1f2937;
+    }
+    input:checked + .slider::before {
+      transform: translateX(30px);
+      box-shadow: inset 0 0 0 2px white;
+    }
+    body.dark-mode {
+      background-color: #000;
+      color: white;
+    }
+  </style>
+</head>
+
+<body class="flex flex-col min-h-screen transition-colors duration-500">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md text-gray-800">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700 flex items-center">
+        <!-- Avatar circular do bot -->
+        <img src="sentinelbot_logo.png"
+             alt="Avatar SentinelBot"
+             class="w-10 h-10 rounded-full mr-3"/>
+        <a data-i18n="title" href="https://discord.com/invite/nxWPaTe6km" target="_blank">
+          title
+        </a>
+      </h1>
+
+      <nav class="space-x-4 text-sm text-gray-800">
+        <a class="hover:underline" data-i18n="nav_home" href="index.html">nav_home</a>
+        <a class="hover:underline" data-i18n="nav_bug" href="https://discord.gg/t62SefDh8n" target="_blank">nav_bug</a>
+        <a class="hover:underline" data-i18n="nav_terms" href="link_separados/termos.html">nav_terms</a>
+        <a class="hover:underline" data-i18n="nav_privacy" href="link_separados/privacidade.html">nav_privacy</a>
+      </nav>
+
+      <div class="flex items-center space-x-2 ml-4">
+        <!-- Select de idioma -->
+        <select class="border border-gray-300 rounded px-2 py-1 text-sm" id="languageSelect">
+          <option value="pt">PT</option>
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+          <option value="de">DE</option>
+          <option value="es">ES</option>
+          <option value="tr">TR</option>
+          <option value="ru">RU</option>
+          <option value="zh">中文</option>
+          <option value="lt">LT</option>
+        </select>
+        <!-- Botão de tema -->
+        <label class="switch">
+          <input id="themeToggle" onclick="toggleTheme()" type="checkbox"/>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-grow flex flex-col items-center justify-center text-center py-20 px-4">
+    <img alt="title" class="w-48 mb-6" data-i18n-alt="title" src="sentinelbot_logo.png"/>
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4" data-i18n="title">title</h1>
+    <p class="text-lg md:text-xl mb-6 max-w-xl" data-i18n="subtitle">subtitle</p>
+    <a class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition"
+       data-i18n="add_button"
+       href="https://discord.com/oauth2/authorize?client_id=1334515347965083730"
+       target="_blank">
+      add_button
+    </a>
+  </main>
+
+  <!-- Footer -->
+  <footer class="fixed bottom-0 left-0 w-full bg-white z-50 text-center text-sm py-4 shadow-inner text-gray-800"
+          data-i18n="footer">
+    footer
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.toggle('dark-mode');
+      document.body.classList.toggle('dark-mode', isDark);
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+  </script>
+  <script src="js/lang.js"></script>
+  <script>
+    function toggleLangMenu() {
+      const menu = document.getElementById("langMenu");
+      menu.classList.toggle("hidden");
+    }
+
+    function setLanguage(lang) {
+      localStorage.setItem("selectedLang", lang);
+      location.reload();
+    }
+
+    window.addEventListener("click", function (e) {
+      const button = document.getElementById("langDropdownButton");
+      const menu   = document.getElementById("langMenu");
+      if (button && menu) {
+        if (!button.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.add("hidden");
+        }
+      }
+    });
+  </script>
+</body>
+</html>

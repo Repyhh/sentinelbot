@@ -1,0 +1,47 @@
+{
+  "title": "SentinelBot",
+  "nav_home": "首页",
+  "nav_bug": "报告问题",
+  "nav_terms": "服务条款",
+  "nav_privacy": "隐私政策",
+  "subtitle": "你在 Albion Online 中的终极助手。管理、提醒等功能，尽在 Discord。",
+  "add_button": "添加到服务器",
+  "footer": "SentinelBot 与网站由 Repyhh 开发",
+
+
+
+
+
+    "privacy_h1_0": "SentinelBot - 隐私政策",
+    "privacy_h2_0": "📌 收集的数据",
+    "privacy_h2_1": "🔐 存储与安全",
+    "privacy_h2_2": "🚫 数据共享",
+    "privacy_h2_3": "🧹 数据删除",
+    "privacy_h2_4": "🛠️ 更改",
+    "privacy_p_0": "SentinelBot 尊重您的隐私。此政策说明收集哪些数据、如何使用以及如何保护。",
+    "privacy_p_1": "所有数据均以 .json 文件形式本地存储在托管 bot 的服务器上。我们不使用外部服务存储或共享数据。",
+    "privacy_p_2": "SentinelBot 不与第三方共享数据，也不向 Discord 之外发送任何信息。",
+    "privacy_p_3": "服务器管理员可以手动删除其服务器的数据。根据请求，bot 创建者可删除特定公会的数据。",
+    "privacy_p_4": "我们保留更改此政策的权利。更改将通过 bot 的支持频道通知。",
+    "privacy_p_5": "如有疑问，请联系创建者 Repyhh",
+    "privacy_li_0": "用户 ID、用户名和公会名称；",
+    "privacy_li_1": "语音频道停留时间；",
+    "privacy_li_2": "事件参与；",
+    "privacy_li_3": "虚拟余额和 bot 交易；",
+    "privacy_li_4": "特定服务器的设置和偏好。",
+    "terms_h1_0": "SentinelBot - 服务条款",
+    "terms_p_0": "使用 SentinelBot 即表示您同意以下条款：",
+    "terms_h2_0": "🧑‍💻 Bot 使用",
+    "terms_li_0": "Bot 可添加到符合 Discord 服务条款的任何 Discord 服务器。",
+    "terms_li_1": "用户同意以道德和合法的方式使用 Bot。",
+    "terms_h2_1": "🧩 更新和更改",
+    "terms_li_2": "Bot 可随时更新、修改或停用，恕不另行通知。",
+    "terms_li_3": "作者不对更改后造成的数据丢失或功能故障负责。",
+    "terms_h2_2": "🧠 责任",
+    "terms_li_4": "Bot 创建者不对用户如何使用 Bot 负责。",
+    "terms_li_5": "生成的信息基于 Discord 提供的数据和用户交互。",
+    "terms_h2_3": "⚠️ 保修限制",
+    "terms_li_6": "Bot 按“原样”提供，不含明示或暗示保证。",
+    "terms_li_7": "它可能无法在所有服务器或所有权限设置中正常运行。",
+    "terms_p_1": "欲了解更多信息，请联系 Repyhh"
+}

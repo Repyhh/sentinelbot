@@ -1,0 +1,48 @@
+{
+  "title": "SentinelBot",
+  "nav_home": "Pradžia",
+  "nav_bug": "Pranešti apie klaidą",
+  "nav_terms": "Paslaugų teikimo sąlygos",
+  "nav_privacy": "Privatumo politika",
+  "subtitle": "Tavo galutinis pagalbininkas Albion Online. Valdymas, įspėjimai ir dar daugiau – tiesiai per Discord.",
+  "add_button": "Pridėti prie serverio",
+  "footer": "SentinelBot ir svetainė sukurti Repyhh",
+
+
+
+
+
+
+    "privacy_h1_0": "SentinelBot - Privatumo politika",
+    "privacy_h2_0": "📌 Surinkti duomenys",
+    "privacy_h2_1": "🔐 Saugojimas ir saugumas",
+    "privacy_h2_2": "🚫 Duomenų dalijimasis",
+    "privacy_h2_3": "🧹 Duomenų šalinimas",
+    "privacy_h2_4": "🛠️ Pakeitimai",
+    "privacy_p_0": "SentinelBot gerbia jūsų privatumą. Ši politika paaiškina, kokie duomenys renkami, kaip jie naudojami ir kaip jie apsaugomi.",
+    "privacy_p_1": "Visi duomenys saugomi vietoje .json failuose serveryje, kuriame talpinamas bot. Mes nenaudojame išorinių paslaugų duomenų saugojimui ar dalijimuisi.",
+    "privacy_p_2": "SentinelBot nedalija duomenų su trečiosiomis šalimis ir nesiunčia jokios informacijos už Discord ribų.",
+    "privacy_p_3": "Serverio administratoriai gali rankiniu būdu ištrinti savo serverio duomenis. Pagal užklausą bot kūrėjas gali pašalinti konkrečių gildijų duomenis.",
+    "privacy_p_4": "Mes pasiliekame teisę keisti šią politiką. Pakeitimai bus pranešti per bot palaikymo kanalą.",
+    "privacy_p_5": "Jei turite klausimų, susisiekite su kūrėju Repyhh",
+    "privacy_li_0": "Vartotojo ID, vartotojo vardai ir gildijų pavadinimai;",
+    "privacy_li_1": "Laikas, praleistas balso kanaluose;",
+    "privacy_li_2": "Dalyvavimai renginiuose;",
+    "privacy_li_3": "Virtualių lėšų balansas ir bot operacijos;",
+    "privacy_li_4": "Serveriui specifinės nustatymų parinktys ir preferencijos.",
+    "terms_h1_0": "SentinelBot - Paslaugų teikimo sąlygos",
+    "terms_p_0": "Naudodami SentinelBot, jūs sutinkate su šią sąlygomis:",
+    "terms_h2_0": "🧑‍💻 Bot naudojimas",
+    "terms_li_0": "Botą galima pridėti prie bet kurio Discord serverio, atitinkančio Discord paslaugų teikimo sąlygas.",
+    "terms_li_1": "Vartotojas įsipareigoja naudoti botą etiškai ir teisėtai.",
+    "terms_h2_1": "🧩 Atnaujinimai ir pakeitimai",
+    "terms_li_2": "Botą galima atnaujinti, modifikuoti arba išjungti bet kuriuo metu be išankstinio įspėjimo.",
+    "terms_li_3": "Autorius neatsako už duomenų praradimą ar funkcionalumo sutrikimus po pakeitimų.",
+    "terms_h2_2": "🧠 Atsakomybės",
+    "terms_li_4": "Bot kūrėjas neatsako už tai, kaip vartotojai naudoja botą.",
+    "terms_li_5": "Sugeneruota informacija remiasi Discord pateiktais duomenimis ir vartotojų sąveika.",
+    "terms_h2_3": "⚠️ Garantijų ribojimas",
+    "terms_li_6": "Botas pateikiamas “tokiu, koks yra”, be aiškių ar numanomų garantijų.",
+    "terms_li_7": "Jis gali neveikti tinkamai visuose serveriuose arba su visais leidimais.",
+    "terms_p_1": "Dėl daugiau informacijos susisiekite su Repyhh"
+}

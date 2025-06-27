@@ -1,0 +1,48 @@
+{
+  "title": "SentinelBot",
+  "nav_home": "Início",
+  "nav_bug": "Informar um bug",
+  "nav_terms": "Termos de Serviço",
+  "nav_privacy": "Política de Privacidade",
+  "subtitle": "O teu assistente definitivo para o Albion Online. Gestão, alertas e muito mais diretamente no Discord.",
+  "add_button": "Adicionar ao servidor",
+  "footer": "SentinelBot e site Desenvolvido por Repyhh",
+
+  
+
+  "privacy_h1_0": "SentinelBot - Políticas de Privacidade",
+  "privacy_h2_0": "📌 Dados Recolhidos",
+  "privacy_h2_1": "🔐 Armazenamento e Segurança",
+  "privacy_h2_2": "🚫 Partilha de Dados",
+  "privacy_h2_3": "🧹 Remoção de Dados",
+  "privacy_h2_4": "🛠️ Alterações",
+  "privacy_p_0": "O SentinelBot respeita a tua privacidade. Esta política explica que dados são recolhidos, como são usados e como são protegidos.",
+  "privacy_p_1": "Todos os dados são armazenados localmente em ficheiros .json no servidor onde o bot está alojado. Não utilizamos serviços externos para guardar ou partilhar dados.",
+  "privacy_p_2": "O SentinelBotnão partilha dados com terceiros, nem envia qualquer informação para fora do Discord.",
+  "privacy_p_3": "Os administradores de servidor podem apagar os dados do seu servidor manualmente. A pedido, o criador do bot poderá remover os dados específicos de uma guilda.",
+  "privacy_p_4": "Reservamo-nos o direito de alterar esta política. As alterações serão comunicadas via canal de suporte do bot.",
+  "privacy_p_5": "Se tiveres dúvidas, contacta o criador Repyhh",
+  "privacy_li_0": "IDs de utilizadores, nomes de utilizador e guilda;",
+  "privacy_li_1": "Tempo de permanência em canais de voz;",
+  "privacy_li_2": "Participações em eventos;",
+  "privacy_li_3": "Saldo virtual e transações no bot;",
+  "privacy_li_4": "Configurações e preferências por servidor.",
+
+
+
+  "terms_h1_0": "SentinelBot - Termos de Serviço",
+  "terms_p_0": "Ao utilizares o SentinelBot, estás a aceitar os seguintes termos:",
+  "terms_h2_0": "🧑‍💻 Uso do Bot",
+  "terms_li_0": "O bot pode ser adicionado a qualquer servidor Discord que cumpra os Termos de Serviço da Discord.",
+  "terms_li_1": "O utilizador compromete-se a usar o bot de forma ética e legal.",
+  "terms_h2_1": "🧩 Atualizações e Alterações",
+  "terms_li_2": "O bot pode ser atualizado, modificado ou desligado a qualquer momento sem aviso prévio.",
+  "terms_li_3": "O autor não é responsável por perdas de dados ou falhas de funcionalidade após alterações.",
+  "terms_h2_2": "🧠 Responsabilidades",
+  "terms_li_4": "O criador do bot não é responsável por como os utilizadores usam o bot.",
+  "terms_li_5": "As informações geradas são baseadas em dados fornecidos pelo Discord e pela interação dos utilizadores.",
+  "terms_h2_3": "⚠️ Limitação de Garantias",
+  "terms_li_6": "O bot é fornecido “tal como está”, sem garantias explícitas ou implícitas.",
+  "terms_li_7": "Pode não funcionar corretamente em todos os servidores ou com todas as permissões.",
+  "terms_p_1": "Para mais informações, contactar Repyhh"
+}
