@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Carregar traduções do JSON
   const loadLanguage = (lang) => {
-    fetch(`../lang/${lang}.json`)
+    fetch(new URL(`../lang/${lang}.json`, import.meta.url))
       .then((response) => response.json())
       .then((translations) => applyTranslations(translations))
       .catch((error) => console.error("Erro ao carregar traduções:", error));
