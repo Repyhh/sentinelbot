@@ -13,6 +13,12 @@
   <meta content="website" property="og:type"/>
   <meta http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self' 'unsafe-eval' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline';">
+  <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com;
+        style-src  'self' 'unsafe-inline';
+      ">
   <link rel="icon" href="iconpequeno.webp" type="image/webp"/>
   <title data-i18n="title">title</title>
   <!-- Aplicar o modo escuro antes de qualquer CSS para evitar flash -->
